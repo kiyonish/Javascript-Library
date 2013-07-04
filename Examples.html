@@ -1,0 +1,82 @@
+<!DOCTYPE html >
+<html lang="en">
+	<head>
+		<title>Javascript Library Examples</title>
+	</head>
+	<link rel="stylesheet" type="text/css" href="styles/examples.css">
+	<body>
+		
+		<h1>Javascript Library - Examples</h1>
+
+		<div id="skrolla">
+			<h3>Skrolla jQuery plugin</h3>
+			<p>Scroll percent : <span id="percent"></span></p>
+			<p>Pixels from top : <span id="top"></span></p>
+			<p>Pixels from bottom : <span id="bottom"></span></p>
+		</div>
+
+
+		<div id="cookie">
+			<h3>Cookie utility</h3>
+			<input type="textfield" id="cookieVal" /><a href="#" id="setCookie">Set cookie</a>
+			<p>Cookie name : <span id="getCookie"></span></p>
+			<a href="#" id="eraseCookie">Erase cookie</a>
+		</div>
+
+
+		<div id="email">			
+			<h3>Email vaidator utility</h3>
+			<input type="textfield" id="emailText" />
+			<p>Email is valid: <span id="valid"></span></p>
+		</div>
+
+		<div id="querystring">			
+			<h3>Query String utility</h3>
+			<p><a href="?name=Bobby&age=30">Add a query strings to url</a></p>
+			<p><a href="#" id="getVars">Get query string key/value pairs</a></p>
+			<p id="querystingValues"></p>
+		</div>
+
+
+		<div id="randomArray">			
+			<h3>Random array utility</h3>
+			<p><a href="#" id="randomize">Randomize array</a></p>
+			<div id="array"></div>
+		</div>
+
+
+		<div id="formatter">			
+			<h3>Text formatter utility</h3>
+			<h5>Get number as currency</h5>
+			<p><span id="tf1">14736280937392</span> = <span id="getNumberAsCurrency"></span></p>
+
+			<h5>Get number from currency</h5>
+			<p><span id="tf2">$879,345,249,0483</span> = <span id="getValueAsNumber"></span></p>
+
+			<h5>Restrict typing to numbers oly</h5>
+			<p><input type="textfield" id="restrictCharsToDigits"></p>
+
+			<h5>Replace spaces with dashes</h5>
+			<p><span id="tf3">Hello my name is Basil Bacon</span> = <span id="spaceToDash"></span></p>
+			
+		</div>
+
+
+
+		
+
+	<!-- Javascript imports -->
+	<script src="http://code.jquery.com/jquery-1.10.1.min.js"></script>
+	<script src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	
+	<script type="text/javascript" src="scripts/plugins/jquery.skrolla.js"></script>
+	<script type="text/javascript" src="scripts/utils/CookieUtil.js"></script>
+	<script type="text/javascript" src="scripts/utils/EmailValidator.js"></script>
+	<script type="text/javascript" src="scripts/utils/QueryStringUtil.js"></script>
+	<script type="text/javascript" src="scripts/utils/RandomArrayUtil.js"></script>
+	<script type="text/javascript" src="scripts/utils/TextFormatter.js"></script>
+	
+	<script type="text/javascript" src="scripts/Examples.js"></script>
+
+	</body>
+</html>

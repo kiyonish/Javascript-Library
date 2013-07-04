@@ -1,0 +1,16 @@
+html,body{ height: 3000px; font-family: Helvetica, Arial; color: #333;}
+h1{ top: 0;position: fixed; background-color: white; z-index: 10000; line-height: 100px; margin-bottom: 50px; border-bottom: 1px #999 solid; } 
+span{ font-weight: bold; color: blue;}
+div{ margin-bottom: 50px; }
+
+#skrolla{
+	position: fixed;
+	top: 0;
+	right:0;
+	width: 300px;
+}
+
+
+#cookie{
+	margin-top: 200px;
+}
